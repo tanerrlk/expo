@@ -7,7 +7,7 @@ import { AndroidIcon, Badge, Icon, IOSIcon, Title } from './NavigatorElements';
 export type TabProps = PropsWithChildren<{
   name: string;
   hidden?: boolean;
-  options?: NativeTabOptions;
+  options?: Omit<NativeTabOptions, 'hidden' | 'specialEffects'>;
   popToRoot?: boolean;
   disableScrollToTop?: boolean;
 }>;
@@ -67,10 +67,9 @@ export function convertTabPropsToOptions({
         if ('useAsSelected' in child.props && child.props.useAsSelected) {
           acc.selectedIcon = icon;
         } else {
-          console.log('Icon', icon);
           acc.icon = icon;
         }
-      } else if (isChildOfType(child, AndroidIcon)) {
+      } else if (isChildOfType(child, AndroidIcon) && process.env.EXPO_OS === 'android') {
         acc.iconResourceName = child.props.name;
       }
       return acc;

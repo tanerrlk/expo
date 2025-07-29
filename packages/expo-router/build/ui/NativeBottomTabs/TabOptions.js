@@ -90,11 +90,10 @@ function convertTabPropsToOptions({ options, hidden, children, popToRoot, disabl
                 acc.selectedIcon = icon;
             }
             else {
-                console.log('Icon', icon);
                 acc.icon = icon;
             }
         }
-        else if (isChildOfType(child, NavigatorElements_1.AndroidIcon)) {
+        else if (isChildOfType(child, NavigatorElements_1.AndroidIcon) && process.env.EXPO_OS === 'android') {
             acc.iconResourceName = child.props.name;
         }
         return acc;

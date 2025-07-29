@@ -13493,11 +13493,6 @@ react-native-iphone-x-helper@^1.0.3:
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.3.1.tgz#20c603e9a0e765fd6f97396638bdeb0e5a60b010"
   integrity sha512-HOf0jzRnq2/aFUcdCJ9w9JGzN3gdEg0zFE4FyYlp4jtidqU03D5X7ZegGKfT1EWteR0gPBGp9ye5T5FvSWi9Yg==
 
-react-native-is-edge-to-edge@^1.1.6, react-native-is-edge-to-edge@^1.1.7, react-native-is-edge-to-edge@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-is-edge-to-edge/-/react-native-is-edge-to-edge-1.2.1.tgz#64e10851abd9d176cbf2b40562f751622bde3358"
-  integrity sha512-FLbPWl/MyYQWz+KwqOZsSyj2JmLKglHatd3xLZWskXOpRaio4LfEDEz8E/A6uD8QoTHW6Aobw1jbEwK7KMgR7Q==
-
 react-native-is-edge-to-edge@^1.1.6, react-native-is-edge-to-edge@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-native-is-edge-to-edge/-/react-native-is-edge-to-edge-1.2.1.tgz#64e10851abd9d176cbf2b40562f751622bde3358"
@@ -13552,10 +13547,10 @@ react-native-safe-area-context@5.4.0:
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-5.4.0.tgz#04b51940408c114f75628a12a93569d30c525454"
   integrity sha512-JaEThVyJcLhA+vU0NU8bZ0a1ih6GiF4faZ+ArZLqpYbL6j7R3caRqj+mE3lEtKCuHgwjLg3bCxLL1GPUJZVqUA==
 
-react-native-screens@4.11.1-nightly-20250611-8b82e081e, react-native-screens@4.14.0-nightly-20250727-7b39753fa:
-  version "4.14.0-nightly-20250727-7b39753fa"
-  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-4.14.0-nightly-20250727-7b39753fa.tgz#46762a4856d37c2fb2a44ccaa2930f92954d6974"
-  integrity sha512-oPXl3pRlWmrkmTf3cL410nzVyRbUrsYd3Ysf6J7E+7bqGYWDFqs1iBf+n48pLtQ2hx5kfjIOqriiZ7eg57kRDg==
+react-native-screens@4.11.1-nightly-20250611-8b82e081e, react-native-screens@4.14.0-nightly-20250729-f0d20c0a9:
+  version "4.14.0-nightly-20250729-f0d20c0a9"
+  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-4.14.0-nightly-20250729-f0d20c0a9.tgz#4fcd14e3528111abf81c6b6c2a22e8c26aa778b7"
+  integrity sha512-kDi8IaO/pVVjCigAFNIC6Efg/lpD/E5p9/U/NGnwRSojMkPndbifkFvSoPqTDC8+LwW5SKE6wOZvHALbuEbc7A==
   dependencies:
     react-freeze "^1.0.0"
     react-native-is-edge-to-edge "^1.2.1"
