@@ -65,7 +65,7 @@ export function Sitemap() {
     [sitemap]
   );
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID="expo-router-sitemap">
       {canOverrideStatusBarBehavior && <StatusBar barStyle="light-content" />}
       <ScrollView contentContainerStyle={styles.scroll}>
         {children.map((child) => (

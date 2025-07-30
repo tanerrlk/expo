@@ -51,7 +51,7 @@ function getNavOptions() {
 function Sitemap() {
     const sitemap = (0, useSitemap_1.useSitemap)();
     const children = react_1.default.useMemo(() => sitemap?.children.filter(({ isInternal }) => !isInternal) ?? [], [sitemap]);
-    return (<react_native_1.View style={styles.container}>
+    return (<react_native_1.View style={styles.container} testID="expo-router-sitemap">
       {statusbar_1.canOverrideStatusBarBehavior && <react_native_1.StatusBar barStyle="light-content"/>}
       <react_native_1.ScrollView contentContainerStyle={styles.scroll}>
         {children.map((child) => (<react_native_1.View testID="sitemap-item-container" key={child.contextKey} style={styles.itemContainer}>
